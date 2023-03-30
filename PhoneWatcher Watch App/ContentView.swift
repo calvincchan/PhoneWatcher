@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+  @ObservedObject private var connectivityManager = WatchConnectivityManager.shared
+
   var body: some View {
     VStack {
       Image(systemName: "globe")
@@ -18,6 +20,11 @@ struct ContentView: View {
     .padding()
     .onAppear {
       print("Started")
+    }
+    .alert(item: $connectivityManager.notificationMessage) { message in
+      Alert(
+        title: Text(message.text),
+        dismissButton: .default(Text("Dismiss")))
     }
   }
 }

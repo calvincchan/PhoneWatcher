@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA5C45D29D6071800DEB5D0 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5C45C29D6071800DEB5D0 /* WatchConnectivityManager.swift */; };
+		3EA5C45E29D6071800DEB5D0 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5C45C29D6071800DEB5D0 /* WatchConnectivityManager.swift */; };
 		3EBE464829D3BA1B00743A3A /* PhoneWatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE464729D3BA1B00743A3A /* PhoneWatcherApp.swift */; };
 		3EBE464A29D3BA1B00743A3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE464929D3BA1B00743A3A /* ContentView.swift */; };
 		3EBE464C29D3BA1C00743A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE464B29D3BA1C00743A3A /* Assets.xcassets */; };
@@ -43,6 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3EA5C45C29D6071800DEB5D0 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = SOURCE_ROOT; };
 		3EBE464429D3BA1B00743A3A /* PhoneWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EBE464729D3BA1B00743A3A /* PhoneWatcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneWatcherApp.swift; sourceTree = "<group>"; };
 		3EBE464929D3BA1B00743A3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 			children = (
 				3EBE464729D3BA1B00743A3A /* PhoneWatcherApp.swift */,
 				3EBE464929D3BA1B00743A3A /* ContentView.swift */,
+				3EA5C45C29D6071800DEB5D0 /* WatchConnectivityManager.swift */,
 				3EBE464B29D3BA1C00743A3A /* Assets.xcassets */,
 				3EBE464D29D3BA1C00743A3A /* Preview Content */,
 			);
@@ -232,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBE464A29D3BA1B00743A3A /* ContentView.swift in Sources */,
+				3EA5C45D29D6071800DEB5D0 /* WatchConnectivityManager.swift in Sources */,
 				3EBE464829D3BA1B00743A3A /* PhoneWatcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EBE465C29D3BA1C00743A3A /* ContentView.swift in Sources */,
+				3EA5C45E29D6071800DEB5D0 /* WatchConnectivityManager.swift in Sources */,
 				3EBE465A29D3BA1C00743A3A /* PhoneWatcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
